@@ -10,7 +10,7 @@
 import ShortestPath
 import Distance
 
-
+# Main class will call both module for solution
 if __name__ == "__main__":
     Distance.calculate_distance()   # Calling method from Distance module
     ShortestPath.find_shortest_path()   # Calling method from ShortestPath module
